@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM buildpack-deps:jessie
 
 ENV PYTHON_VERSION=2.7.11 \
     NGHTTP2_VERSION=1.5.0 \
